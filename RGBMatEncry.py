@@ -22,7 +22,7 @@ def threadfunction(pixarray, key):
         for j in range(len(pixarray[i])):
             pixarray[i][j] = np.matmul(pixarray[i][j], key)
 
-addr = r"C:\Users\Samhruth\Pictures\Saved Pictures\ForEncry.jpeg" #Insert Image Here
+addr = r"" #Insert Image Here
 matkey = [[random.randint(0, 1000) for i in range(3)] for i in range(3)]
 while(not invertible(matkey)):
     matkey = [[random.randint(0, 1000) for i in range(3)] for i in range(3)]
