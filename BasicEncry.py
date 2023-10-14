@@ -1,5 +1,5 @@
 try:
-    addr = r"C:\Users\Samhruth\Pictures\Saved Pictures\ForEncry.jpeg"
+    addr = r"" #insert path
     key = int(input("Enter a numeric key: "))
 
     f = open(addr, 'rb')
