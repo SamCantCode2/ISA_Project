@@ -8,7 +8,7 @@ import random
 import Latticefile as lf
 
 
-addr = r"C:\Users\Samhruth\Pictures\Saved Pictures\ForEncry.jpeg" #Insert Image Here
+addr = r"" #Insert Image Here
 apikey = '7f356d5a6b31cd357f0976956b2e9297'
 base = 'http://api.openweathermap.org/data/2.5/weather?'
 f = open('City_Names.csv', 'r')
