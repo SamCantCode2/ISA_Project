@@ -23,7 +23,7 @@ Uses openweather API to gather weather information
 The random function gives a pseudo random value to index the city that the weather is taken from
 The randomness in the variables comes from the weather of the place itself
 '''
-apikey = '7f356d5a6b31cd357f0976956b2e9297'
+apikey = '' #insert api key here
 base = 'http://api.openweathermap.org/data/2.5/weather?'
 f = open('City_Names.csv', 'r')
 cities = f.readlines()
@@ -51,7 +51,7 @@ print("The public key (city index) is:", pkey, end='\n')
 print("The city of choice is:", vals['name'])
 print("The matrix key is:\n", matkey, end='\n')
 print("The secret key (matrix inverse) is:\n", invkey, end='\n')
-addr = r"C:\Users\Samhruth\Pictures\Saved Pictures\ForEncry.jpeg" #Insert Image Here
+addr = r"" #Insert Image Here
 img = PIL.Image.open(addr)
 pixels = np.asarray(img)
 sample = np.asarray(img, dtype = np.uint32)
